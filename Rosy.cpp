@@ -659,7 +659,7 @@ unsigned long long test2() {
 int main()
 {
     //perft();
-    test();
+    //test();
     //position_tree_traversal();
     //build_opening_book((char*)"C:\\Users\\marvi\\source\\repos\\Rosy\\opening_data.txt", (char*)"C:\\Users\\marvi\\source\\repos\\Rosy\\opening_part1.txt");
     //OpeningBook book{ (char*)"C:\\Users\\marvi\\source\\repos\\Rosy\\openingBook.txt" };
@@ -670,8 +670,8 @@ int main()
     //pinned_pieces_test();
     //pinned_pieces_move_test();go wtime 60000 btime 60000 winc 1000 binc 1000
     //checking_ray_test();position startpos moves e2e4 e7e5 g1f3 d8e7 f1c4 e7e5 d2d4 e7e6 d4e5 e7e5
-    //Rosy bot{};
-    //bot.uci_loop();
+    Rosy bot{};
+    bot.uci_loop();
     //play("1k1r3q/1ppn3p/p4b2/4p3/8/P2N2P1/1PP1R1BP/2K1Q3 w - - 0 1");
     //perft();
     return 0;
