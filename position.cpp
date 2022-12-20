@@ -141,7 +141,7 @@ std::string Position::FEN() {
 				piece = get_piece_type_on(ind);
 				side = !side;
 			}
-			if ((piece == 15)||(ind==enpassant_square)) {
+			if ((piece == 15) || ((ind == enpassant_square)&&(enpassant_square!=a8))) {
 				empty_spaces++;
 			}
 			else {
